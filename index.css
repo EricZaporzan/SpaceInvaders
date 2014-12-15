@@ -1,0 +1,47 @@
+body {
+	background: black;
+	color: white;
+	font-family: sans-serif;
+	font-size: large;
+}
+
+#container {
+	/* Position the canvas to center*/
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 900px;
+	height: 600px
+}
+
+#canvas {
+	z-index: 1;
+}
+
+#infoboard {
+	position: relative;
+	bottom: 605px;
+	left: 5px;
+	z-index: 5;
+}
+
+#level {
+	position: relative;
+	top:0px;
+	left: 0px;
+}
+
+#score {
+	position: relative;
+	top: 0px;
+	left: 680px;
+}
+
+#legend {
+	position: relative;
+	top: 600px;
+	left: 40px;
+}
